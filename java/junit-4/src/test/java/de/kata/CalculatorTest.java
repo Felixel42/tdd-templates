@@ -4,9 +4,10 @@ import org.junit.Test;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
-public class FizzBuzzCalculatorTest {
+public class CalculatorTest {
     @Test
     public void testAssertJIsAlwaysBetter() {
-        assertThat(true).isTrue();
+        var test = true;
+        assertThat(test).isTrue();
     }
 }
