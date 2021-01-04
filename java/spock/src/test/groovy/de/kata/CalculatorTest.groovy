@@ -6,6 +6,6 @@ class CalculatorTest extends Specification {
 
     def "some Test"() {
         expect:
-        true == true
+        true
     }
 }
